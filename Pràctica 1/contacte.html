@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kart</title>
+</head>
+<body>
+    <nav class="header">
+        <ul>
+        <li><a href="inici.html">Inici</a></li>
+        <li><a href="adults.html">Adults</a></li>
+        <li><a href="nens.html">Nens</a></li>
+        <li><a href="preferits.html">Preferits</a></li>
+        <li><a href="cistella.html">Cistella</a><li>
+        </ul>
+    </nav>
+
+
+    <div class="contact_form">
+
+		<div class="formulari">			
+      <h1>Formulari de contacte</h1>
+				<h3>Escriu-nos i en breu, ens posarem en contacte amb tu</h3>
+					<form action="submeter-formulario.php" method="post">				
+								<p>
+									<label for="nom" class="colocar_nom">Nom
+										<span class="obligatori">*</span>
+									</label>
+										<input type="text" name="introduir_nom" id="nom" required="obligatori" placeholder="Escriu el teu nom">
+								</p>
+								<p>
+									<label for="email" class="colocar_email">Email
+										<span class="obligatori">*</span>
+									</label>
+										<input type="email" name="introduir_email" id="email" required="obligatori" placeholder="Escriu el teu Email">
+								</p>
+								<p>
+									<label for="telefon" class="colocar_telefon">Telèfon
+									</label>
+										<input type="tel" name="introduir_telefon" id="telefon" placeholder="Escriu el teu telàfon">
+								</p>		
+								<p>
+									<label for="assumpte" class="colocar_assumpte">Assumpte
+										<span class="obligatori">*</span>
+									</label>
+										<input type="text" name="introduir_assumpte" id="assumpte" required="obligatori" placeholder="Escriu un assumpte">
+								</p>		
+							
+								<p>
+									<label for="missatge" class="colocar_missatge">Missatge
+										<span class="obligatori">*</span>
+									</label>                     
+                               		  <textarea name="introduir_missatge" class="text_missatge" id="missatge" required="obligatori" placeholder="Deixa aquí el teu comentari..."></textarea> 
+                               	</p>	  								
+							
+								<button type="submit" name="enviar_formulari" id="enviar"><p>Enviar</p></button>
+								<p class="avis">
+									<span class="obligatori"> * </span>Els camps son obligatoris.
+								</p>					
+					</form>
+		</div>	
+	</div>
+
+</body>
+</html>
