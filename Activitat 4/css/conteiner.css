@@ -1,0 +1,23 @@
+.container {
+  background           : grey;
+  margin               : 0 auto;
+  max-width            : 100%;
+  min-height           : 100vh;
+  display              : grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-areas  : "header header header"
+    "footer footer footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area : footer;
+  background: black;
+}

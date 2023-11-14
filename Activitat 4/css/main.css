@@ -1,0 +1,44 @@
+section {
+    display        : flex;
+    justify-content: center;
+    flex-direction : row;
+    flex-flow      : wrap;
+}
+
+.h3-main {
+    font-family  : 'Solway', serif;
+    font-size    : 25px;
+    text-align   : center;
+    margin-top   : 50px;
+    margin-bottom: 50px;
+}
+
+a {
+    color          : green;
+    text-decoration: none;
+}
+
+.page {
+    display        : flex;
+    justify-content: center;
+}
+
+.page>div {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    border         : 1px solid red;
+    width          : 30px;
+    height         : 30px;
+    margin-top     : 100px;
+    margin-bottom  : 100px;
+}
+
+.page>div a {
+    padding: 10px;
+    color  : white;
+}
+
+.page>div:hover {
+    background: rgb(247, 191, 38);
+}
